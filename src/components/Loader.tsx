@@ -201,7 +201,7 @@ export default function Loader() {
         const landTime = 0.22 * i;
         const rotateTime = landTime + 0.32;
 
-        tl.call(() => setLoadingText(layer.label), null, landTime + 0.05);
+        tl.call(() => setLoadingText(layer.label), undefined, landTime + 0.05);
 
         tl.fromTo(
           layersRefs.current[i],
@@ -245,7 +245,7 @@ export default function Loader() {
             }
           );
         });
-      }, null, completedTime);
+      }, undefined, completedTime);
 
       // Lift completed burger slightly and bounce it
       tl.to(burgerRef.current, {
@@ -263,7 +263,7 @@ export default function Loader() {
           ease: "bounce.out"
         });
 
-      tl.call(() => setLoadingText("READY TO VYCE!"), null, completedTime + 0.3);
+      tl.call(() => setLoadingText("READY TO VYCE!"), undefined, completedTime + 0.3);
 
       const curtainsOutTime = completedTime + 1.2;
 
