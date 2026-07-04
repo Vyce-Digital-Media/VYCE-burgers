@@ -261,7 +261,7 @@ export default function HomePage() {
           <div className="size-[40vw] z-20 absolute top-[60%] -translate-y-[60%] left-1/2 -translate-x-1/2 max-md:size-[80vw] max-md:top-[110vw] max-md:-translate-y-[50%]">
             <div ref={burgerImgRef} className="w-full h-full opacity-0">
               <img
-                alt="VYCE Artisan Smashed Burger with fresh ingredients"
+                alt="CRSP Artisan Smashed Burger with fresh ingredients"
                 className="h-full w-full object-contain"
                 src="/img-webp/burgerH.webp"
               />
@@ -269,9 +269,9 @@ export default function HomePage() {
           </div>
 
           <p className="text-center text-[15vw] max-md:text-[20vw] font-modak uppercase mt-[15vw] relative z-20 max-md:z-20 text-stroke-180 text-[#F4A804] translate-y-[-9vw] max-md:mt-[6vw] max-md:absolute max-md:top-[133vw] max-md:-translate-y-1/2">
-            <span className="sr-only">VYCE</span>
+            <span className="sr-only">CRSP</span>
             <span aria-hidden="true">
-              <span className="inline-block">VYCE</span>
+              <span className="inline-block">CRSP</span>
             </span>
           </p>
 
@@ -286,7 +286,7 @@ export default function HomePage() {
             <div className="w-[23vw] max-md:w-full">
               <p className="text40 leading-none text-right max-md:text-center">
                 <span className="inline-block opacity-0">
-                  Topped with melted cheddar and our signature chili honey glaze crafted to satisfy your VYCEings since 1997.
+                  Topped with melted cheddar and our signature chili honey glaze crafted to satisfy your CRSPings since 1997.
                 </span>
               </p>
             </div>
@@ -313,7 +313,7 @@ export default function HomePage() {
               </span>
             </h2>
             <p className="text-black text40 w-[45%] mt-[2vw] leading-[1.1] mx-auto max-md:w-[90%]">
-              VYCE is back and bolder than ever. Honoring our rich roots, we bring you the ultimate smashed experience fully loaded, hot, and crafted fresh.
+              CRSP is back and bolder than ever. Honoring our rich roots, we bring you the ultimate smashed experience fully loaded, hot, and crafted fresh.
             </p>
           </div>
 
@@ -342,7 +342,7 @@ export default function HomePage() {
               </div>
               <div className="h-[25vw] w-[20vw] rounded-[4%] overflow-hidden media-item max-md:origin-bottom max-md:w-[35vw] max-md:h-[38vw] max-md:shrink-0 md:rotate-[8deg] max-md:rotate-12 max-md:translate-y-[3vw]" style={{ willChange: 'transform', cursor: 'pointer' }}>
                 <img
-                  alt="VYCE restaurant atmosphere"
+                  alt="CRSP restaurant atmosphere"
                   className="h-full w-full object-cover"
                   src="/img-webp/about-3.webp"
                 />
@@ -389,7 +389,7 @@ export default function HomePage() {
             </svg>
           </div>
           <img
-            alt="VYCE Signature Cheesy Burger with dripping cheese"
+            alt="CRSP Signature Cheesy Burger with dripping cheese"
             className="h-full w-full object-cover"
             src="/img-webp/cheesyBurger.webp"
           />

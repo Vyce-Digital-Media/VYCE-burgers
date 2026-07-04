@@ -203,7 +203,7 @@ export default function Navbar() {
             }
           }}
         >
-          VYCE
+          CRSP
         </a>
         <div className="flex items-center gap-[1vw] max-md:gap-[3vw]">
           <a

@@ -20,10 +20,10 @@ const mouseMemoirs = Mouse_Memoirs({
 });
 
 export const metadata: Metadata = {
-  title: "VYCE | Artisan Smashed Burgers",
-  description: "Experience the ultimate artisan smashed burgers at VYCE. Fresh ingredients, bold flavors, and zero guilt. Est. 1997 — Navarra, España.",
+  title: "CRSP | Artisan Smashed Burgers",
+  description: "Experience the ultimate artisan smashed burgers at CRSP. Fresh ingredients, bold flavors, and zero guilt. Est. 1997 — Navarra, España.",
   manifest: "/manifest.webmanifest",
-  keywords: ["artisan burgers", "smashed burgers", "fresh ingredients", "organic burgers", "VYCE burgers"],
+  keywords: ["artisan burgers", "smashed burgers", "fresh ingredients", "organic burgers", "CRSP burgers"],
 };
 
 export default function RootLayout({

@@ -90,7 +90,7 @@ export default function MenuPage() {
 
   const handleAddToCart = (burgerName: string, index: number) => {
     try {
-      window.dispatchEvent(new CustomEvent("VYCE:add-to-cart", { detail: { item: burgerName } }));
+      window.dispatchEvent(new CustomEvent("CRSP:add-to-cart", { detail: { item: burgerName } }));
     } catch (e) {
       console.error(e);
     }

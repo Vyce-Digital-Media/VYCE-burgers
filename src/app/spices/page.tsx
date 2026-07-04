@@ -66,7 +66,7 @@ export default function SpicesPage() {
           </div>
 
           <p className="text40 w-[45vw] max-md:w-full mt-[3vw] max-md:mt-[6vw] font-mouse-memoirs text-black/80 leading-[1.2]">
-            Every VYCE smashed patty is seasoned with our proprietary blend of four key artisan spices. They are selected from micro-farms to ensure premium taste quality since 1997.
+            Every CRSP smashed patty is seasoned with our proprietary blend of four key artisan spices. They are selected from micro-farms to ensure premium taste quality since 1997.
           </p>
 
           {/* Spices Grid */}

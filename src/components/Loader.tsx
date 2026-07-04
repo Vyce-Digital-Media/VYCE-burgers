@@ -133,7 +133,7 @@ const burgerLayers = [
     bottom: "27%",
     zIndex: 15,
     rotate: 0,
-    label: "PREPARING TO SERVE THE VYCE MASTERPIECE!"
+    label: "PREPARING TO SERVE THE CRSP MASTERPIECE!"
   }
 ];
 
@@ -263,7 +263,7 @@ export default function Loader() {
           ease: "bounce.out"
         });
 
-      tl.call(() => setLoadingText("READY TO VYCE!"), undefined, completedTime + 0.3);
+      tl.call(() => setLoadingText("READY TO CRSP!"), undefined, completedTime + 0.3);
 
       const curtainsOutTime = completedTime + 1.2;
 
